@@ -4,7 +4,6 @@
     margin: auto;
     margin: 0px;
     margin-bottom: 25px
-    
 }
 
 
@@ -40,10 +39,15 @@ button {
     border-radius: 10px;
     border-style: none;
     font-weight: bold;
-    font-size: 14px
-    ;
+    font-size: 14px;
 }
 
+.intro {
+    width: 706px;
+    height: 252px;
+    line-height: 140%;
+   
+}
 
 
 ul {
@@ -58,14 +62,14 @@ nav {
 .banner {
     display: flex;
     flex-direction: row;
-width: 1440px;
-height: 376px;
+    width: 1440px;
+    height: 376px;
 
 }
 
-.img-rm{
-height: 351px;
-width: 452px;
+.img-rm {
+    height: 351px;
+    width: 452px;
 }
 
 
@@ -126,13 +130,14 @@ footer li {
 
 }
 
-.rickMortyCharacter > img.resize {
-    width:200px; /* you can use % */
+.rickMortyCharacter>img.resize {
+    width: 200px;
+    /* you can use % */
     height: auto;
 }
 
 #charactersSection {
     display: flex;
     flex-wrap: wrap;
-    margin:auto;
+    margin: auto;
 }
