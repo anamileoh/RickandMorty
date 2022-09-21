@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+* {
+    margin: auto;
+    margin: 0px;
+    margin-bottom: 25px
+    
+}
+
+
+
+body {
+    font-family: 'Roboto';
+    background-color: white;
+    color: #233160;
+
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #72C7D0;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+
+}
+
+.title1 {
+    margin: 10px;
+}
+
+button {
+    width: 132px;
+    height: 27px;
+    background-color: #D7F2F2;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 14px
+    ;
+}
+
+
+
+ul {
+    display: flex;
+    color: white;
+}
+
+nav {
+    background-color: #96C96A;
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+width: 1440px;
+height: 376px;
+
+}
+
+.img-rm{
+height: 351px;
+width: 452px;
+}
+
+
+li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+.content {
+    background-color: #72C7D0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 80px 0px 20px 50px;
+    background-color: #96C96A;
+    color: white;
+}
+
+
+
+footer ul {
+    flex-direction: column;
+    padding: 0px;
+    color: white;
+}
+
+footer span {
+    display: block;
+}
+
+
+footer div span:first-child {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.enbloque {
+    display: block;
+}
+
+footer li {
+    margin: 2px;
+}
+
+.rickMortyCharacter {
+    color: #233160;
+    background-color: #D7F2F2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 5%;
+
+}
+
+.rickMortyCharacter > img.resize {
+    width:200px; /* you can use % */
+    height: auto;
+}
+
+#charactersSection {
+    display: flex;
+    flex-wrap: wrap;
+    margin:auto;
+}

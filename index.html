@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script src="./JS/rickmorty.js"></script>
+    
+
+
+    <title>Rick & Morty</title>
+
+</head>
+
+<body>
+    <header>
+        <p class=" title1"> Another Joke about APIs? Give it a REST. Let’s Rick!</p>
+        <button> About Me </button>
+    </header>
+
+    <template>
+        <div class="rickMortyCharacter">
+            <div class="name"></div>
+            <img class="image"></div>
+            <div class="status"></div>
+            <div class="species"></div>
+        </div>
+      </template>
+
+    <section>
+
+        <div class="banner">
+
+            <div>
+                <img class= "img-rm" src="./img/banner image.svg" alt="">
+
+            </div>
+
+
+
+            <div>
+                <h2> How Well Do You Know Rick & Morty?</h2>
+                <p>
+                    Rick and Morty is an American adult animated science-fiction sitcom created by Justin Roiland
+                    and
+                    Dan Harmon for Cartoon Network's nighttime programming block Adult Swim. The series follows the
+                    misadventures of cynical mad scientist Rick Sanchez and his good-hearted but fretful grandson
+                    Morty
+                    Smith, who split their time between domestic life and interdimensional adventures.
+
+                    Though you can enjoy Rick and Morty simply as a zany cartoon with some crude humor, you can also
+                    dive deeper into the human condition and wrestle with the existence of god itself through these
+                    characters. So, here you can check them all!
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <nav>
+        <ul class="nav-links">
+            <li><button onclick="getCharactersAll()"> All Characters</button> </li>
+            <li><button onclick="getCharactersByGender('male')"> Male</button> </li>
+            <li><button onclick="getCharactersByGender('female')"> Female</button> </li>
+            <li><button onclick="getCharactersByStatus('alive')"> Alive </button> </li>
+            <li><button onclick="getCharactersByStatus('dead')"> Dead </button> </li>
+        </ul>
+
+    </nav>
+
+    <main  id="charactersSection" class="content">           
+
+    </main>
+
+
+    <footer>
+        <div> <span class="enbloque">
+                Ana Milé OH
+            </span>
+
+            <span class="enbloque">Senior language student & bartender</span>
+
+        </div>
+
+        <div>
+
+            <h4>Useful links</h4>
+            <ul>
+                <li><a href="./Home.html">Home</a></li>
+                <li><a href="./About.html">About</a></li>
+                <li><a href="./Experience.html">Experience</a></li>
+                <li><a href="./Contact.html">Contact</a></li>
+
+            </ul>
+        </div>
+
+        <div>
+            <h4>Social Media</h4>
+            <ul>
+
+                <li><a href="./Home.html">Linkedin</a></li>
+                <li><a href="https://github.com/anamileoh">GitHub</a></li>
+                <li><a href="https://www.instagram.com/anamileoh/">Instagram</a></li>
+            </ul>
+
+        </div>
+
+        <div>
+            <h4>Hire Me</h4>
+            <span> Visit My LinkedIn Account </span>
+
+
+
+
+        </div>
+
+
+
+
+    </footer>
+</body>
+
+</html>
